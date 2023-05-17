@@ -17,7 +17,11 @@
                     </x-nav-link>
                 </div>
             </div>
-
+            <div class="flex flex-col justify-center">
+                <a href="{{ route('ticket.create') }}" class="ml-3 rounded-lg p-2" style="background-color:black; color:white">
+                    Support Ticket
+                </a>
+            </div>
             <!-- Settings Dropdown -->
             <div class="hidden sm:flex sm:items-center sm:ml-6">
                 <x-dropdown align="right" width="48">
